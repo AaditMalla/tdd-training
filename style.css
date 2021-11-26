@@ -1,0 +1,44 @@
+.parent{
+    height: 100vh;
+    border: 10px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+
+}
+
+h2{
+    color: white;
+}
+
+
+.child1{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    order: 1;
+    flex-grow: 1;
+}
+
+.child2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(88, 70, 172);
+    order: 3;
+}
+
+.child3{
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen  ;
+    order: 2;
+}
+
+.child4{
+    width: 200px;
+    height: 200px;
+    background-color: darkorange;
+    order: 0;
+}
+
